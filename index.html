@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio - Code And Beyond</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="nav-left">
+      <a href="/">Code And Beyond</a>
+    </div>
+    <div class="nav-right">
+      <a href="http://github.com" target="_blank">
+        <i class="fa-brands fa-github"></i><span>Github</span>
+      </a>
+      <a href="http://linkedin.com" target="_blank">
+        <i class="fa-brands fa-linkedin"></i><span>Linkedin</span>
+      </a>
+      <a href="mailto:john@example.com">
+        <i class="fa-solid fa-envelope"></i><span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-text">
+        <h2>Hi, I'm C&amp;B 👋</h2>
+        <p>
+          I'm passionate about coding and creativity. Explore my portfolio and join me on this exciting journey through code and beyond.
+        </p>
+        <div class="hero-links">
+          <a href="#skills"><i class="fa-solid fa-code"></i><span>Skills</span></a>
+          <a href="#testimony"><i class="fa-solid fa-pen"></i><span>Testimony</span></a>
+          <a href="#contact"><i class="fa-solid fa-envelope"></i><span>Contact</span></a>
+        </div>
+      </div>
+      <div class="hero-headshot">
+        <img src="images/hero-headshot.webp" alt="C&amp;B Headshot">
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <p class="section-description">
+        A snapshot of my technical expertise and creative pursuits.
+      </p>
+      <div class="skills-grid">
+        <div class="skill-cell">
+          <img src="images/html-logo.webp" alt="HTML Logo">
+          <span>HTML</span>
+        </div>
+        <div class="skill-cell">
+          <img src="images/css-logo.webp" alt="CSS Logo">
+          <span>CSS</span>
+        </div>
+        <div class="skill-cell">
+          <img src="images/javascript-logo.webp" alt="JavaScript Logo">
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-cell">
+          <img src="images/node-logo.webp" alt="Node.js Logo">
+          <span>Node.js</span>
+        </div>
+        <div class="skill-cell">
+          <img src="images/react-logo.webp" alt="React.js Logo">
+          <span>React.js</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONY SECTION -->
+    <section id="testimony" class="testimony-section">
+      <h2>Testimony</h2>
+      <div class="testimony-card">
+        <div class="testimony-person">
+          <img src="images/testimony-headshot.webp" alt="Testimony Headshot">
+          <div class="person-info">
+            <p class="name">Code And Beyond</p>
+            <p class="designation">Web Developer</p>
+          </div>
+        </div>
+        <p class="testimony-text">
+          "Coding transformed my world. With every line of code, I discover new opportunities to innovate and inspire. Join me in exploring the limitless possibilities of technology and creativity."
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>
+            If you have any queries or want to collaborate, feel free to reach out. I am always excited to connect with like-minded individuals.
+          </p>
+        </div>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your Name">
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email">
+          
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+          
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
